@@ -10,8 +10,7 @@
 }
 
 body{
-    background: rgb(211,156,235);
-    background: radial-gradient(circle, rgba(211,156,235,1) 50%, rgb(57, 40, 73) 100%);
+    background: #684da8;
 }
 
 button {
@@ -28,7 +27,7 @@ button {
 }
 
 button:hover{
-    background-color: #424141;
+    background-color: #4e0561;
     color: #ffff;
 }
 
@@ -37,7 +36,7 @@ button:hover > i {
 }
 
 button i {
-    color: #424141;
+    color: #4e0561;
     font-weight: bold;
     pointer-events: none;
 }
@@ -136,7 +135,7 @@ input, select {
 
  .todo {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     padding: 1rem 1rem;
     border-bottom: 1px solid #ddd;
@@ -153,11 +152,11 @@ input, select {
  }
 
  .done {
-    background: #c609f5;
+    background: #cc78de;
  }
 
  .done h3 {
-    color: #ddd;
+    color: #333;
     text-decoration: line-through;
     font-style: italic;
  }
